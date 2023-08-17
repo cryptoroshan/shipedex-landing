@@ -41,7 +41,7 @@ function App() {
                   solutions, powered by frenship
                 </p>
               </div>
-              <p className="text-xl font-bold text-white z-50 drop-shadow-[0_4px_4px_rgba(0,0,0,0.5)] cursor-pointer hover:text-slate-300 w-fit mx-auto">
+              <p className="text-xl font-bold text-white z-50 drop-shadow-[0_4px_4px_rgba(0,0,0,0.5)] cursor-pointer hover:text-slate-300 hover:scale-105 w-fit mx-auto">
                 EXCHANGE
               </p>
             </div>
@@ -121,16 +121,16 @@ function App() {
             </p>
             <div className="flex flex-row gap-[30px] mt-[23px] mx-auto">
               <a href="/" target="_blank">
-                <img className="rounded-full" src="/images/twitter.svg" />
+                <img className="rounded-full hover:scale-105" src="/images/twitter.svg" />
               </a>
               <a href="/" target="_blank">
-                <img className="rounded-full" src="/images/telegram.svg" />
+                <img className="rounded-full hover:scale-105" src="/images/telegram.svg" />
               </a>
               <a href="/" target="_blank">
-                <img className="rounded-full" src="/images/medium.svg" />
+                <img className="rounded-full hover:scale-105" src="/images/medium.svg" />
               </a>
               <a href="/" target="_blank">
-                <img className="rounded-full" src="/images/gitbook.svg" />
+                <img className="rounded-full hover:scale-105" src="/images/gitbook.svg" />
               </a>
             </div>
           </section>

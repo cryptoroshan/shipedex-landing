@@ -61,19 +61,19 @@ function App() {
               className="block lg:hidden w-2/3 mx-auto"
               src="/images/bone.png"
             />
-            <ol className="block lg:hidden list-decimal text-justify w-2/3 mx-auto">
+            <ol className="block lg:hidden list-decimal text-justify w-2/3 mx-auto text-base">
               <li className="text-[#DF9B35]">
                 Liquidity pool voters received $BONE rewards from bribes.
               </li>
-              <li className="text-[#3F9CF2] mt-4">
+              <li className="text-[#3F9CF2] mt-2">
                 Increasing value of sticky bribes drives demand for veSHIP to
                 receive bribes and pool fees.
               </li>
-              <li className="text-[#5BA000] mt-4">
+              <li className="text-[#5BA000] mt-2">
                 This drives up demand for $SHIP and its price. $SHIP emissions
                 are now more valuable.
               </li>
-              <li className="text-[#CD49B8] mt-4">
+              <li className="text-[#CD49B8] mt-2">
                 More $BONE in the protocol and TVL expands. Users provide
                 liquidity to gain free access to $SHIP.
               </li>
@@ -105,6 +105,10 @@ function App() {
           <section className="flex flex-col lg:justify-center w-full min-h-screen bg-[url('/images/page3-background.png')] bg-cover bg-no-repeat bg-center">
             <img
               className="w-full lg:w-2/3 mx-auto mt-[129px]"
+              src="/images/roadmap-title.svg"
+            />
+            <img
+              className="w-full lg:w-2/3 mx-auto -mt-[100px] sm:-mt-[250px] md:-mt-[350px] lg:-mt-[300px] xl:-mt-[400px] 2xl:-mt-[600px]"
               src="/images/roadmap.svg"
             />
           </section>
@@ -121,16 +125,28 @@ function App() {
             </p>
             <div className="flex flex-row gap-[30px] mt-[23px] mx-auto">
               <a href="/" target="_blank">
-                <img className="rounded-full hover:scale-105" src="/images/twitter.svg" />
+                <img
+                  className="rounded-full hover:scale-105"
+                  src="/images/twitter.svg"
+                />
               </a>
               <a href="/" target="_blank">
-                <img className="rounded-full hover:scale-105" src="/images/telegram.svg" />
+                <img
+                  className="rounded-full hover:scale-105"
+                  src="/images/telegram.svg"
+                />
               </a>
               <a href="/" target="_blank">
-                <img className="rounded-full hover:scale-105" src="/images/medium.svg" />
+                <img
+                  className="rounded-full hover:scale-105"
+                  src="/images/medium.svg"
+                />
               </a>
               <a href="/" target="_blank">
-                <img className="rounded-full hover:scale-105" src="/images/gitbook.svg" />
+                <img
+                  className="rounded-full hover:scale-105"
+                  src="/images/gitbook.svg"
+                />
               </a>
             </div>
           </section>

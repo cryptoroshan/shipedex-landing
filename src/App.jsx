@@ -25,7 +25,7 @@ function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <section className="flex flex-col justify-between w-full min-h-screen bg-[url('/images/page1-background.png')] bg-cover bg-no-repeat bg-center">
+          <section className="flex flex-col justify-between w-full min-h-screen bg-[url('/images/page1-background.jpg')] bg-cover bg-no-repeat bg-center">
             <img className="w-64 mx-auto" src="/images/logo.png" />
             <div className="relative flex flex-col gap-8 justify-center mx-auto mb-20 lg:mb-[142px] text-center">
               <img
@@ -114,7 +114,7 @@ function App() {
           </section>
         </SwiperSlide>
         <SwiperSlide>
-          <section className="flex flex-col lg:justify-center w-full py-12 min-h-screen bg-[url('/images/page4-background.png')] bg-cover bg-no-repeat bg-center">
+          <section className="flex flex-col justify-center w-full py-12 min-h-screen bg-[url('/images/page4-background.png')] bg-cover bg-no-repeat bg-center">
             <img className="w-[352px] mx-auto" src="/images/shiba-pepe.png" />
             <p className="text-2xl lg:text-6xl font-bold text-black opacity-80 mt-[23px] text-center">
               JOIN US IN OUR MISSION
@@ -123,7 +123,7 @@ function App() {
               Forging Frenship and amplifying liquidity in the Shibarium
               ecosystem
             </p>
-            <div className="flex flex-row gap-[30px] mt-[23px] mx-auto">
+            <div className="flex flex-row gap-[30px] mt-[23px] w-2/3 md:w-full mx-auto justify-center">
               <a href="/" target="_blank">
                 <img
                   className="rounded-full hover:scale-105"

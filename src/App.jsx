@@ -50,7 +50,7 @@ function App() {
         <SwiperSlide>
           <section className="relative flex flex-col lg:justify-center w-full min-h-screen bg-[url('/images/page2-background.png')] bg-cover bg-no-repeat bg-center">
             <img
-              className="hidden lg:block absolute left-0 right-0 top-0 bottom-0 m-auto w-1/3 lg:w-[calc((100vw-350px)/2-100px)]"
+              className="hidden lg:block absolute left-0 right-0 top-0 bottom-0 m-auto w-1/3 lg:w-[calc((100vw-350px)/2-200px)]"
               src="/images/bone.png"
             />
             <img
@@ -78,22 +78,22 @@ function App() {
                 liquidity to gain free access to $SHIP.
               </li>
             </ol>
-            <div className="hidden lg:flex flex-col gap-16 xl:gap-[150px] 2xl:gap-[264px] px-4 xl:px-[50px] 2xl:px-[175px] mt-4 lg:mt-[74px] text-center text-sm lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold max-md:mb-12">
+            <div className="hidden lg:flex flex-col gap-16 xl:gap-[150px] 2xl:gap-[264px] px-4 xl:px-[50px] 2xl:px-[100px] mt-4 lg:mt-[74px] text-center text-sm lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold max-md:mb-12">
               <div className="flex flex-row justify-between">
-                <p className="text-[#DF9B35] w-1/3">
+                <p className="text-[#DF9B35] w-[30%]">
                   Liquidity pool voters received $BONE rewards from bribes.
                 </p>
-                <p className="text-[#3F9CF2] w-1/3">
+                <p className="text-[#3F9CF2] w-[30%]">
                   Increasing value of sticky bribes drives demand for veSHIP to
                   receive bribes and pool fees.
                 </p>
               </div>
               <div className="flex flex-row justify-between">
-                <p className="text-[#5BA000] w-1/3">
+                <p className="text-[#5BA000] w-[30%]">
                   This drives up demand for $SHIP and its price. $SHIP emissions
                   are now more valuable.
                 </p>
-                <p className="text-[#CD49B8] w-1/3">
+                <p className="text-[#CD49B8] w-[30%]">
                   More $BONE in the protocol and TVL expands. Users provide
                   liquidity to gain free access to $SHIP.
                 </p>
